@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Encryptor/Decryptor</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script type="text/javascript" src="encriptador.js"></script>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+</head>
+<body>
+    <main>
+        <div class="container">
+
+            <div class="logo">
+                <img class="logo-img" src="img/Vector.png" alt="Blue Alura Icon">
+                <h1 class="title">Encryptor / Decriptor</h1>
+            </div>
+    
+            <div class="left">
+                <input class="text-input" type="text" placeholder="Enter the message here" id="inputTexto" cols="30" rows="10">
+            </div>
+    
+            <div class="right">
+                <img src="img/Muñeco.png" alt="Curious blue boy picture" id="imgDerecha" class="imagen-derecha">
+                <h2 id="texto" class="texto-derecha" >No message found</h2>
+                <textarea id="texto2" class="texto-area-derecho"
+                name="name" rows="8" cols="80">You need to enter the text you wish to encrypt or decrypt first.</textarea>
+                <button id="copiar" type="button" name="button" onclick="Copiar()">Copy</button>
+            </div>
+    
+            <div class="left-button">
+                
+                <p><img src="img/Vector2.png" alt="exclamation simbol"> Only lowercase letters and no special characters.</p>
+                <button type="button" id="btn-encriptar" onclick="Encriptar()">Encrypt</button>
+                <button type="button" id="btn-desencriptar" onclick="Desencriptar()">Decrypt</button>
+            </div>
+    
+        </div>
+    </main>
+    
+    <footer>
+        <div class="main-footer">
+
+            <div class="block-3 block-5">
+
+                <div class="row-down">
+                        <a href="mailto:cpgiudice@hotmail.com">&copy Camila Giudice - Oracle Next Education Challenge 2022</a>
+                </div>
+
+
+                <div class="row">
+
+                    <div class="col-3 col-s-6">
+                        <a class="contactoImg" href="https://github.com/CamilaGiudice"><img src="img/GitHub-Mark-64px.png" width="50" height="50" alt="Icono de Github"></a>
+                    </div>
+                    <div class="col-3 col-s-6">
+                        <a class="contactoImg" href="https://www.linkedin.com/in/camila-giudice-44a312102/"><img src="img/linkedin.png" alt="Icono de Linkedin" width="50"
+                            height="50" ></a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+</body>
+</html>
